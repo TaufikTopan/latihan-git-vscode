@@ -1,0 +1,476 @@
+*, 
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.fContainer {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  background-color: lightslategrey;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: white;
+  font-weight: 700;
+}
+
+.lastname {
+  color: crimson;
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation > li > a:hover {
+  color: crimson;
+  transition: all .3s ease-in-out;
+}
+
+.navigation > li > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.navigation > li > img:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  transition: all .3s ease-in-out;
+}
+
+.active {
+  background-color: crimson;
+  color: white;
+  padding: 15px;
+}
+
+.active:hover {
+  color: white !important;
+}
+
+.baper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.baper > p {
+  color: crimson;
+  font-weight: 700;
+}
+
+.bgsam {
+  background-image: url("img/ger.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.samblue {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pid {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 145%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 135px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.kiko {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.kiko > p {
+  color: crimson;
+  font-weight: 700;
+}
+
+table.center {margin-left: auto; margin-right: auto;}
+
+.bgkk {
+  background-image: url("img/gel.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.kkblue {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 51vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.koko {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 218%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.dContainer {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+}
+
+.frapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.havigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.havigation > li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.havigation > li > img:hover {
+  color: crimson;
+  transition: all .3s ease-in-out;
+}
+
+.havigation > li > img {
+  max-width: 225px;
+  height: 225px;
+  border-radius: 225px;
+}
+
+.havigation > li > img:hover {
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+  transition: all .3s ease-in-out;
+}
+
+.bContainer {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+}
+
+.rapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 110px;
+}
+
+.uavigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uavigation > li {
+  list-style-type: none;
+  padding: 75px;
+}
+
+.uavigation > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.uavigation > li > a:hover {
+  color: crimson;
+  transition: all .3s ease-in-out;
+}
+
+.uavigation > li > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.uavigation > li > img:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  transition: all .3s ease-in-out;
+}
+
+.prof {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  color: crimson;
+  font-weight: 700;
+}
+
+.eks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  color: crimson;
+  font-weight: 700;
+}
+
+.hub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 110px;
+  background-color: #222;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  color: crimson;
+  font-weight: 700;
+}
+
+.scm {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 98%;
+  height: 25px;
+  background-color: crimson;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bgvid {
+  background-image: url("img/geh.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.vidblue {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.vid {
+  color: white;
+  position: absolute;
+  top: 314%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 80px;
+}
+
+.vid {
+  display: grid;
+  grid-template-columns: auto 50%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flexbox;
+}
+
+.visi {
+  align-items: center;
+  display: block;
+  padding: 75px;
+}
+
+.bege {
+  background-image: url("img/geg.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.bluege {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.styl {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 410%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tbl, th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tbl {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #222;
+  color: #a04545;
+}
+
+td {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+th, td {
+  padding: 15px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #aa0404;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a04545;
+}
+
+.tcontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
